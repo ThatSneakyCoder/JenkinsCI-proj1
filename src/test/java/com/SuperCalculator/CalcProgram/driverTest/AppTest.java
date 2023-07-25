@@ -1,4 +1,4 @@
-package com.SuperCalculator:CalcProgram:1.0.0;
+package com.SuperCalculator.CalcProgram.driverTest;
 
 import static org.junit.Assert.assertTrue;
 
@@ -9,12 +9,9 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+
     }
 }
