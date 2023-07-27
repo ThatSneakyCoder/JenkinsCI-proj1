@@ -1,0 +1,3 @@
+#!/bin/bash
+
+java -jar /home/shubh220922/Desktop/personal-projects/shubh/CalcProgramJar/CalcProgram-1.0.0-jar-with-dependencies.jar "$@"
