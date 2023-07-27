@@ -1,7 +1,5 @@
 package com.SuperCalculator.CalcProgram.driver;
 
-import static sun.util.locale.LocaleUtils.isEmpty;
-
 /**
  * Class containing terminal application
  *
@@ -16,7 +14,7 @@ public class App
         }
 
         if ("--show-message".equals(args[0])) {
-            if (args[1] != null && !isEmpty(args[1])) {
+            if (args[1] != null && !args[1].isEmpty()) {
                 System.out.println(args[1]);
             } else {
                 System.out.println("Empty message :O");
